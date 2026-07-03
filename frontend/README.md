@@ -215,7 +215,7 @@ Add screenshots of:
 
 ## Author
 
-**Jed Chibuikem**
+**Jed Emelle**
 
 SOE 310 Project
 
