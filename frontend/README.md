@@ -4,7 +4,7 @@
 
 The Photography Scheduling Web Application is a full-stack web application developed using **Python**, **Django**, and **Next.js**. It allows clients to schedule photography sessions online while enabling administrators to manage bookings through the Django Admin dashboard.
 
-This project was developed as part of the **SOE 310** course to demonstrate the use of the Django framework in building a real-world scheduling system.
+This project was developed as part of a school project : Backend Website development (with Python and Django) - **SOE 310**,  to demonstrate the use of the Django framework in building a real-world scheduling system.
 
 ---
 
