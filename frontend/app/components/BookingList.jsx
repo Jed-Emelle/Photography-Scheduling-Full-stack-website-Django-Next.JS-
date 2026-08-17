@@ -13,8 +13,8 @@ export default function BookingList() {
   async function getBookings() {
     try {
       const response = await axios.get(
-        fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/bookings/`)
-      );
+        `${process.env.NEXT_PUBLIC_API_URL}/api/bookings/`
+    );
 
       setBookings(response.data);
     } catch (error) {
