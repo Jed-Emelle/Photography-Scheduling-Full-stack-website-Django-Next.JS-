@@ -29,9 +29,9 @@ export default function BookingForm() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/api/bookings/",
+        `${process.env.NEXT_PUBLIC_API_URL}/api/bookings/`,
         form
-      );
+);
 
       setMessage("✅ Booking submitted successfully!");
 
