@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from appointments import views  # <-- THIS LINE FIXES THE ERROR
 
 urlpatterns = [
+    path('', views.api_root, name='api_root'),
     path('admin/', admin.site.urls),
     path("api/bookings/", include("appointments.urls")),
 ]
